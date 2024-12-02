@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Satisfy&display=swap');
+
+body { 
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background-color: blue;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+        
+     
+}
+
+#selecionar-mascota{ 
+
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.titulo {
+color:rgb(255, 255, 255);
+ font-size: 64px;
+ font-family: "Satisfy", cursive;
+    } 
+
+.subtitulo {
+        color:beige;
+        font-size:44px;
+                
+        }
+
+.tarjetas, .tarjetas-ataques {
+       display:flex ;
+       gap:10px
+       
+}
+.tarjeta-mokepon{
+
+    display: flex;
+    height: 100px;
+    width: 187px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;    
+    margin:10px;
+    border: 1px solid black;
+    font-size: 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ .nombres-mokepones{
+    font-family: "Satisfy", cursive;
+
+
+    
+  
+ }
+
+.tarjeta-mokepon img {
+
+    width: 90px;
+    
+   
+}
+
+input{
+
+    display:none;
+}
+
+input:checked + label { background-color: #0dbe34
+
+   
+}
+
+
+#boton-mascota { 
+    font-family:"Libre Baskerville", serif;
+    height: 40px;
+    width: 187px;  
+    background: transparent;
+    border:2px solid white;
+    border-radius: 10px;
+    color:white;
+    margin:10px;
+    font-size: 24px; }
+
+ #selecionar-ataque{ 
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .boton-ataque { 
+    background-color:lightgreen;    
+    border-radius: 16px;
+    padding:10px;
+    width: 100px;    
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+    font-weight: 700; 
+    
+
+    
+ }
+ #mensajes { 
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+        border-radius: 20px;
+        padding: 10px;
+        background: white;
+        width: 636px;
+        flex-direction: column;
+
+ }
+
+ #boton-reiniciar { 
+    border: none; 
+    color:blue; 
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+ }
+  
+ .cuadros-ataques { 
+   display:grid;
+   grid-template-columns: 100px 100px 100px;
+   color: white; 
+   
+   
+}
+
+#ver-mapa { 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+#ver-mapa button { 
+   font-family:"Libre Baskerville", serif;
+   height: 40px;
+   width: 90px;  
+   background: transparent;
+   border:2px solid white;
+   border-radius: 10px;
+   color:white;
+   margin:2px;
+   font-size: 14px; }
+
+@media (max-width:560px) { .tarjetas , .tarjetas-ataques{
+   
+    flex-direction: column; } } 
+
+.ataques-jugador, .ataques-enemigo, .resultado-combate {
+   margin-top: 10px;
+   display:flex;   
+   flex-direction: column; 
+   align-items: center;
+   border: 2px solid lightgoldenrodyellow;
+}
+
+
+.tarjeta-resultados {
+    margin:101px;
+
+}
+
+@media (max-width:300px) { 
+   #ver-mapa div {
+      display: flex;
+      align-items: center;   
+      flex-direction: column; } } 
+
+
+  
+    
+      
+   
+    
+   
+    
+
+/*justify-content: flex-start;    
+    align-items: center;/*
+/* #seccion2 { color: rgb(230, 19, 177)
+
+}
+/*{}{}
+.experiencia div {
+        flex: 1;
+        margin: 10px;
+        max-width: 300px; 
+        padding: 10px;/* Ajusta esto según sea necesario */
+       
+     
